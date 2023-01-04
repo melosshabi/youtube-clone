@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/youtube-clone/static/css/main.11f5ddd7.css",
+    "main.js": "/youtube-clone/static/js/main.3ffc5d29.js",
+    "static/media/thumbnail2.webp": "/youtube-clone/static/media/thumbnail2.a19209c6fd8d1ab5f8f4.webp",
+    "static/media/thumbnail1.webp": "/youtube-clone/static/media/thumbnail1.3c730561744e5ad4ce1c.webp",
+    "static/media/thumbnail4.webp": "/youtube-clone/static/media/thumbnail4.012f1534edc3b0eb5d86.webp",
+    "static/media/thumbnail3.webp": "/youtube-clone/static/media/thumbnail3.9aa6e536739d5e181333.webp",
+    "static/media/thumbnail5.webp": "/youtube-clone/static/media/thumbnail5.21d5df5221faf68ebca1.webp",
+    "static/media/library-icon.svg": "/youtube-clone/static/media/library-icon.a4025305466abdc0d48395d8c5aa8d24.svg",
+    "static/media/thumbnail8.webp": "/youtube-clone/static/media/thumbnail8.f5cbf867d93cb31bf885.webp",
+    "static/media/thumbnail6.webp": "/youtube-clone/static/media/thumbnail6.6bad096bc29e9f90fcd4.webp",
+    "static/media/thumbnail7.webp": "/youtube-clone/static/media/thumbnail7.6e86e0a03624d311fcbb.webp",
+    "static/media/yt-icon.svg": "/youtube-clone/static/media/yt-icon.aa59ad1d39d85d569cf0fae35a7ec39c.svg",
+    "static/media/yt-shorts.svg": "/youtube-clone/static/media/yt-shorts.f8d31575a2d831335aeaef9b594c54bd.svg",
+    "static/media/like-icon.svg": "/youtube-clone/static/media/like-icon.37fbf90668837fe459400eef97e2886e.svg",
+    "static/media/your-videos.svg": "/youtube-clone/static/media/your-videos.2424f01e6dd637a698d8cfb240ece8fb.svg",
+    "static/media/home-icon.svg": "/youtube-clone/static/media/home-icon.310e3a7f512a2218ad8f578d7ae83035.svg",
+    "static/media/mic-icon.svg": "/youtube-clone/static/media/mic-icon.3aff1ca44e7a6dec45031a2446076de7.svg",
+    "static/media/history-icon.svg": "/youtube-clone/static/media/history-icon.f990ed40a28f6dcca37179c369f4c7d9.svg",
+    "static/media/usr-icon.svg": "/youtube-clone/static/media/usr-icon.8eda73d68328dbb8c227f80af5aacec3.svg",
+    "static/media/subscriptions.svg": "/youtube-clone/static/media/subscriptions.81137f484ace709151b897ba3835a1f0.svg",
+    "index.html": "/youtube-clone/index.html",
+    "static/media/notifications-icon.svg": "/youtube-clone/static/media/notifications-icon.60a7aacd99c56a92c2a3dbd1e374b345.svg",
+    "static/media/create-icon.svg": "/youtube-clone/static/media/create-icon.22969f6ce5710ee9d6415d33974e12ab.svg",
+    "static/media/watch-later.svg": "/youtube-clone/static/media/watch-later.b5fceaedd516c12e6c2b99774d4e55f4.svg",
+    "main.11f5ddd7.css.map": "/youtube-clone/static/css/main.11f5ddd7.css.map",
+    "main.3ffc5d29.js.map": "/youtube-clone/static/js/main.3ffc5d29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11f5ddd7.css",
+    "static/js/main.3ffc5d29.js"
+  ]
+}
