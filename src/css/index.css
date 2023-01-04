@@ -1,0 +1,221 @@
+*{
+  padding:0;
+  margin:0;
+}
+html{
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(15,15,15);
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(170, 170, 170);
+  border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(113, 113, 113);
+}
+.navbar{
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(15,15,15);
+}
+.hamburger-btn{
+  background: none;
+  border: none;
+  border-radius: 5px;
+  margin-left:25px;
+  cursor: pointer;
+  padding: 5px 5px;
+  transition: background-color 200ms;
+}
+.hamburger-btn:hover{
+  background-color: rgba(255, 255, 255, .2);
+}
+.hamburger-btn:active{
+  background-color: rgba(255, 255, 255, .5);
+}
+.hamburger{
+  height: 15px;
+  width: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+.hamburger li{
+  height: 3px;
+  width: 100%;
+  background-color: white;
+}
+.youtube-icon{
+  width: 150px;
+}
+.search-div-with-mic{
+  display: flex;
+  align-items: center;
+  margin:auto;
+  width: 30%;
+}
+.search-div{
+  display: flex;
+  align-items: center;
+  border:1px solid rgba(255, 255, 255, .2);
+  border-radius: 17px;
+  width: 95%;
+}
+.search-box{
+  width: 100%;
+  font-size: 1.1em;
+  padding:5px 10px;
+  border-top-left-radius:50px;
+  border-bottom-left-radius: 50px;
+  border: none;
+  background-color: rgb(15,15,15);
+  color:white;
+}
+.search-box:focus{
+  outline: 1px solid rgba(0, 100, 150);
+}
+.search-icon{
+  width: 25px;
+  fill:white;
+  padding:5px 10px;
+  background-color:rgb(34,34,34);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
+}
+.mic-icon{
+  width: 25px;
+  height: 25px;
+}
+.user-options{
+  width: 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+.create-icon{
+  width: 25px;
+}
+.notifs{
+  width: 25px;
+  
+}
+.usr{
+  width: 25px;
+}
+.sidebar{
+  background-color: rgb(15,15,15);
+  height: 100vh;
+  width: 15vw;
+  color:white;
+  transition: transform 200ms;
+  transform: translateX(-100%);
+  position: absolute;
+  z-index: 1;
+}
+.shown{
+  transform: translateX(0%);
+}
+.sidebar-options1{
+  height: 15%;
+  margin-left: 10px;
+  padding-top:25px;
+  margin-bottom: 10%;
+}
+.sidebar-options1 ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+  height: 85%;
+  cursor: pointer;
+}
+.sidebar-options1 li, .sidebar-options2 li{
+  padding:10px 5px;
+  border-radius: 8px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 15px;
+}
+.sidebar-options1 li:hover, .sidebar-options2 li:hover{
+  background-color: rgba(255, 255, 255, .2);
+  
+}
+.sidebar img{
+  vertical-align: middle;
+  display: inline-block;
+}
+.home-icon{
+  width: 25px;
+}
+.yt-shorts{
+  width: 25px;
+}
+.subscriptions{
+  fill:white;
+}
+.border-div{
+  width: 85%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, .5);
+  margin-left: 10px;
+}
+.sidebar-options2{
+  margin-top:30%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.sidebar-options2 img{
+  padding-right: 3px;
+  vertical-align: middle;
+  display: inline-block;
+  position:relative;
+}
+.sidebar-options2  li{
+  vertical-align: middle;
+  display: inline-block;
+}
+.library-icon{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top:3px;
+  margin:0;
+  padding:0;
+}
+.history-icon{
+  width: 25px;
+  margin-right: 5px;
+}
+.your-icon{
+  width: 30px;
+}
+.watchLater-icon{
+  width: 30px;
+}
+.like-icon{
+  width: 25px;
+  margin-right:5px ;
+}

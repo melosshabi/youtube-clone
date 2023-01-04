@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.main-page{
+    height: 120vh;
+    width: 100vw;
+    background-color: rgb(15,15,15);
+    position: absolute;
+    top:6vh;
+    font-family: 'Roboto', sans-serif;
+}
+.page-vids{
+    width: 90%;
+    margin-top:5%;
+    margin-left:5%;
+    display: flex;
+    justify-content: space-between;
+}
+.video{
+    width: 20%;
+    font-size: 1.05em;
+    color:white;
+    cursor: pointer;
+}
+.video-img-div{
+    width: 100%;
+    position: relative;
+}
+.video-img-div p{
+    font-size: .8em;
+    background-color: rgba(0, 0, 0, .9);
+    width: 10%;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+}
+.video8-img-div{
+    position:relative;
+}
+.video8-img-div p{
+    font-size: .8em;
+    background-color: rgba(0, 0, 0, .9);
+    width: 15%;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+}
+.video-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.video-title{
+    display: flex;
+    align-items: center;
+}
+.video-title p{
+    display: inline;
+    vertical-align: middle;
+    padding-left:7px;
+}
+.pfp{
+    width: 45px;
+    border-radius: 25px;
+    display: inline;
+}
+.video-info{
+    font-size: .9em;
+    color:rgb(170,170,170);
+    width: 70%;
+    margin-left: calc(15% - 1px);
+}
+@media(max-width:1024px){
+    .user-options{
+        width: 13%;
+      }
+      .search-div-with-mic{
+        width: 40%;
+      }
+      .sidebar{
+        width: 25vw;
+      }
+    .video{
+        width: 35%;
+    }
+    .page-vids{
+      height: 45%;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+}
+@media(max-width:912px){
+    .navbar{
+        width: calc(95vw + 6px);
+      }
+    .main-page{
+      width: calc(95vw + 5px);
+     }
+     .page-vids{
+         margin-left: 50px;
+     }
+     .sidebar{
+        width: 25vw;
+     }
+}
+@media(max-width:540px){
+    .hamburger-btn{
+        margin-left: 0;
+    }
+    .youtube-icon{
+        width: 105px;
+    }
+    .user-options{
+        width: 20%;
+    }
+    .sidebar{
+        width: 40vw;
+    }
+    .page-vids{
+        margin-left: 20px;
+    }
+    .video{
+        width: 40%;
+        font-size: 1em;
+    }
+    .video-title{
+        font-size: .8em;
+    }
+    .video-img-div p{
+        width: 20%;
+    }
+    .video-info{
+        padding-top:5px;
+        font-size: .7em;
+    }
+    .pfp{
+        width: 30px;
+    }
+}
+@media(max-width:414px){
+    *{
+        font-size: .8rem;
+    }
+    .usr{
+        width: 20px;
+    }
+    .notifs{
+        width: 20px;
+    }
+    .create-icon{
+        width: 20px;
+    }
+    .mic-icon{
+        width: 20px;
+    }
+}
+@media(max-width:360px){
+    .youtube-icon{
+        width: 75px;
+    }
+    .mic-icon{
+        width: 17px;
+    }
+    .navbar{
+        width: 100vw;
+    }
+    .main-page{
+        width: 100vw;
+    }
+    .page-vids{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sidebar{
+        width: 45vw;
+    }
+    .video-info{
+        font-size: 1.1em;
+    }
+}
