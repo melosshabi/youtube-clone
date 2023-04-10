@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Youtube Clone</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class='navbar'>
+        <button class='hamburger-btn' onClick="showSidebar()">
+            <ul class='hamburger'>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            </button>
+        <a to="/"><img class="youtube-icon" src="images/yt-icon.svg" alt="yt icon"/></a>
+        <div class="search-div-with-mic">
+        <div class="search-div">
+            <input type="text" class="search-box" />
+            <svg class="search-icon" focusable="true" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+        </div>
+        <img class="mic-icon" src="images/mic-icon.svg" alt="mic-icon"/>
+        </div>
+        
+        <div class="user-options">
+        <img class="create-icon" src="images/create-icon.svg" alt="create icon"/>
+        <img class='notifs' src="images/notifications-icon.svg" alt="notifs"/>
+        <img class='usr' src="images/usr-icon.svg" alt="usr"/>
+        </div>
+    </nav>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-options1">
+            <ul>
+                <li><img class="home-icon" src="images/home-icon.svg" alt="text"/> Home</li>
+                <li><img class="yt-shorts" src="images/yt-shorts.svg" alt="text"/> Shorts</li>
+                <li><img class='subscriptions' src="images/subscriptions.svg" alt="text"/> Subscriptions</li>
+            </ul>
+            <ul class="sidebar-options2">
+                <li><img class="library-icon" src="images/library-icon.svg" alt="text"/>Library</li>
+                <li><img class="history-icon" src="images/history-icon.svg" alt="text"/>History</li>
+                <li><img class="your-icon" src="images/your-videos.svg" alt="text"/>Your Videos</li>
+                <li><img class="watchLater-icon" src="images/watch-later.svg" alt="text"/>Watch Later</li>
+                <li><img class="like-icon" src="images/like-icon.svg" alt="text"/>Liked Videos</li>
+            </ul>
+        </div>
+        <div class='border-div'></div>
+    </div>
+
+    <!-- Videos -->
+    <div class="main-page">
+        <div class="page-vids">
+        <div class="video">
+        <a href="https://www.youtube.com/watch?v=oIRkXulqJA4">
+            <div class="video-img-div"><p>21:56</p><img class="video-img" src="thumbnails/thumbnail1.webp" alt="text"/></div>
+            <div class="video-title"><img class='pfp' src="pfps/pfp1.jpg" alt="pfp1" /><p>How the OSI model works on Youtube</p></div>
+            <div class="video-info"><p>NetworkChuck<br/>350K views · 2 Years ago</p></div>
+        </a>
+        </div>
+
+        <div class="video">
+        <a href="https://www.youtube.com/watch?v=jKmmugnOEME">
+            <div class="video-img-div"><p>22:51</p><img class="video-img" src="thumbnails/thumbnail2.webp" alt="text"/></div>
+            <div class="video-title"><img class='pfp' src="pfps/pfp2.jpg" alt="text"/><p>Nvidia is lying to you-RTX 4070 Ti Full Review</p></div>
+            <div class="video-info">Linus Tech Tips <br/>550K views · 5 hours ago</div>
+        </a>
+        </div>
+
+        <div class="video">
+        <a href="https://www.youtube.com/watch?v=66tfvFeALBQ">
+            <div class="video-img-div"><p>9:02</p><img class='video-img' src="thumbnails/thumbnail3.webp" alt="text" /></div>
+            <div class="video-title"><img class='pfp' src="pfps/pfp3.jpg" alt="txt"/><p>How to ACTUALLY learn to code... 7 Roadmasp for 2023</p></div>
+            <div class="video-info">Fireship <br/>45K views · 3 hours ago</div>
+        </a>
+        </div>
+
+        <div class="video">
+        <a href="https://www.youtube.com/watch?v=3-ejgwq7v3c">
+            <div class="video-img-div"><p>15:40</p><img class='video-img' src="thumbnails/thumbnail4.webp" alt="text" /></div>
+            <div class="video-title"><img class='pfp' src="pfps/pfp4.jpg" alt="txt"/><p>MORE bad news for AMD GPUs... Huge Recall Incoming?</p></div>
+            <div class="video-info">JayzTwoCents <br/>514K views · 22 hours ago</div>
+        </a>
+        </div>
+        </div>
+        
+        <div class="page-vids">
+        <div class="video">
+        <a href="https://www.youtube.com/watch?v=0ZJgIjIuY7U">
+            <div class="video-img-div"><p>13:38</p><img class='video-img' src="thumbnails/thumbnail5.webp" alt="text" /></div>
+            <div class="video-title"><img class='pfp' src="pfps/pfp5.jpg" alt="txt"/><p>Learn useEffect In 13 minutes</p></div>
+            <div class="video-info">Web Dev Simplified <br/>537K views · 2 years ago</div>
+        </a>
+        </div>
+
+        <div class="video">
+        <a href="https://www.youtube.com/watch?v=MZuv4TIjk-I">
+            <div class="video-img-div"><p>18:09</p><img class='video-img' src="thumbnails/thumbnail6.webp" alt="text" /></div>
+            <div class="video-title"><img class='pfp' src="pfps/pfp6.jpg" alt="txt"/><p>These MacBooks DIED from SSD Failure & How To Prevent it</p></div>
+            <div class="video-info">iBoff RCC <br/>127K views · 1 month ago</div>
+        </a>
+        </div>
+
+        <div class="video">
+        <a href="https://www.youtube.com/watch?v=9g7rFjOuggU">
+            <div class="video-img-div"><p>17:38</p><img class='video-img' src="thumbnails/thumbnail7.webp" alt="text" /></div>
+            <div class="video-title"><img class='pfp' src="pfps/pfp7.jpg" alt="txt"/><p>ASMR Programming - Modern Login Page UI Design - No Talking</p></div>
+            <div class="video-info">Codeminton <br/>327k views · 2 months ago</div>
+        </a>
+        </div>
+
+        <div class="video">
+        <a href="https://www.youtube.com/watch?v=WNvxR8RFzBg">
+            <div class="video8-img-div"><p>1:31:23</p><img class='video-img' src="thumbnails/thumbnail8.webp" alt="text" /></div>
+            <div class="video-title"><img class='pfp' src="pfps/pfp8.jpg" alt="txt"/><p>Python for Web Development - Crash Course</p></div>
+            <div class="video-info">freeCodeCamp.org <br/>12K views · 2 years ago</div>
+        </a>
+        </div>
+
+        </div>
+    </div>
+
+    <script defer>
+        function showSidebar(){
+            let sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle("shown");
+        }
+    </script>
+</body>
+</html>
